@@ -2,16 +2,16 @@
 def valid_move?(board,index)
 
 
-if board[index] == ""
-
-  return true
-
-else
+if board[index] == "X" || board[index] == "O"
 
   return false
 
+else
+
+  return true
+
 end
-end 
+end
 
 
 
